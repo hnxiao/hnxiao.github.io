@@ -1,10 +1,10 @@
 ---
-title: seananderson.ca
+title: HXIAO
 aliases: index.html
 layout: index
 ---
 
-I'm a Research Scientist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
+I'm an Assistant Professor at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
 Fisheries and Oceans Canada in Nanaimo, British Columbia.
 I link theory with data through statistical and simulation models to improve predictions about ecological systems and inform management and policy decisions.
 In particular, I am interested in spatiotemporal species distribution modelling, how we can estimate population status with limited data, and in the role of variance, risk, and extreme events in population dynamics.
