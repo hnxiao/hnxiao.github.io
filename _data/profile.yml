@@ -1,6 +1,6 @@
-primary_name: "Han XIAO（肖汉）"
-secondary_name: ""
-navbar_name: "Han XIAO（肖汉）"
+primary_name: "W1"
+secondary_name: "2"
+navbar_name: "navbar"
 
 positions:
 - logo: /assets/images/badges/OUC_logo.png  # Logo is optional
@@ -8,10 +8,11 @@ positions:
 # - name: Position 2 without logo
 
 
-email: "hxiao@ouc.edu.cn"
+
 # cv_link: link-to-your-cv-file
-gscholar: ELP6rPMAAAAJ
+email: "hxiao@ouc.edu.cn"
 wechat_qrcode: /assets/images/etc/wechat.jpg
+gscholar: ELP6rPMAAAAJ
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
