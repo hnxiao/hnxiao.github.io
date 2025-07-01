@@ -2,13 +2,6 @@ primary_name: "XIAO(肖)，Han(汉)"
 secondary_name: ""
 navbar_name: "Han XIAO (OUC)"
 
-positions:
-- logo: /assets/images/badges/OUC_logo.png  # Logo is optional
-  name: Associate Professor
-# - name: Position 2 without logo
-
-
-
 # cv_link: link-to-your-cv-file
 email: "hxiao@ouc.edu.cn"
 wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -33,6 +26,23 @@ portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
+
+experience:
+- logo: /assets/images/badges/OUC_logo.png
+  name: 中国海洋大学
+  position: 副教授
+  date: Sep. 2016
+- logo: /assets/images/badges/HKU_logo.png
+  name: 香港大学
+  position: 助理研究员
+  date: Sep. 2015 - Aug. 2016
+
+services:
+- name: P Universit
+  date: 2021
+- name: Q Universit
+  date: 2024
+
 education:
 - name: The University of Hong Kong
   logo: /assets/images/badges/HKU_logo.png
@@ -46,12 +56,6 @@ education:
   logo: /assets/images/badges/OUC_logo.png
   position: B.S. in Mathematics
   date: Sep. 2004 - Jul. 2008
-
-services:
-- name: P Universit
-  date: 2021
-- name: Q Universit
-  date: 2024
 
 awards:
 - name: Award Name 2
