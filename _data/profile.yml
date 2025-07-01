@@ -14,12 +14,12 @@ gscholar: ELP6rPMAAAAJ
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a at the School of Mathematical Sciences, OUC.
+   我是 of Mathematical Sciences, OUC.
   </p>
   <p>
-    My research:
-  - a
-  - b
+研究方向
+- a
+- b
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -31,7 +31,7 @@ experience:
 - logo: /assets/images/badges/OUC_logo.png
   name: 中国海洋大学
   position: 副教授
-  date: Sep. 2016
+  date: Sep. 2016 至今
 - logo: /assets/images/badges/HKU_logo.png
   name: 香港大学
   position: 助理研究员
@@ -57,8 +57,8 @@ education:
   position: B.S. in Mathematics
   date: Sep. 2004 - Jul. 2008
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
+# awards:
+# - name: Award Name 2
+#  date: 2024
+# - name: Award Name 1 
+#  date: 2021
