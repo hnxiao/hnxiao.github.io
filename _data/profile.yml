@@ -1,17 +1,16 @@
 primary_name: "Han XIAO（肖汉）"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Han XIAO（肖汉）"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/badges/OUC_logo.png  # Logo is optional
+  name: Associate Professor
+# - name: Position 2 without logo
 
 
-email: "your@email.com"
+email: "hxiao@ouc.edu.cn"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
+gscholar: ELP6rPMAAAAJ
 wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -36,17 +35,15 @@ portrait_caption: >-
 education:
 - name: The University of Hong Kong
   logo: /assets/images/badges/HKU_logo.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
+  position: Ph.D. in Combinatorial Optimization
   date: Sep. 2011 - Aug. 2016
 - name: Ocean University of China
   logo: /assets/images/badges/OUC_logo.png
-  position: B.S. in Computer Science
+  position: M.S. in Operations Research
   date: Sep. 2008 - Jul. 2011
 - name: Ocean University of China
   logo: /assets/images/badges/OUC_logo.png
-  position: B.S. in Computer Science
+  position: B.S. in Mathematics
   date: Sep. 2004 - Jul. 2008
 
 # experience:
