@@ -34,16 +34,20 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: The University of Hong Kong
+  logo: /assets/images/badges/HKU_logo.png
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
+  date: Sep. 2011 - Aug. 2016
+- name: Ocean University of China
+  logo: /assets/images/badges/OUC_logo.png
   position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  date: Sep. 2008 - Jul. 2011
+- name: Ocean University of China
+  logo: /assets/images/badges/OUC_logo.png
+  position: B.S. in Computer Science
+  date: Sep. 2004 - Jul. 2008
 
 # experience:
 # - name: Peking University
