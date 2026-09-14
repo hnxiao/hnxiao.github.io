@@ -2,24 +2,24 @@
   "avatar": "images/avatar-placeholder.svg",
   "avatarAlt": "Han Xiao avatar",
   "name": "Han Xiao (肖汉)",
-  "role": "Ph.D. Candidate in Computer Science @ Southwest Jiaotong University",
+  "role": "Associate Professor @ Ocean University of China",
   "affiliation": {
-    "name": "Southwest Jiaotong University",
+    "name": "Ocean University of China",
     "department": "",
-    "url": "https://www.swjtu.edu.cn/"
+    "url": "https://www.ouc.edu.cn/"
   },
-  "location": "Chengdu, China",
+  "location": "Qingdao, China",
   "other": [],
   "researchLabel": "Research",
   "research": [
-    "Collaborative Perception",
-    "3D Vision",
-    "Autonomous Driving"
+    "Combinatorial Optimization",
+    "Algorithmic Game Theory",
+    "Polyhedral Combinatorics"
   ],
   "interestsLabel": "Interests",
   "interests": [
     "‌Cycling‌",
-    "Honor of Kings‌"
+    "Hiking"
   ],
   "show": {
     "affiliation": false,
@@ -30,27 +30,27 @@
   },
   "localized": {
     "en": {
-      "role": "Ph.D. Candidate in Computer Science @ Southwest Jiaotong University",
+      "role": "Associate Professor @ Ocean University of China",
       "researchLabel": "Research",
       "interestsLabel": "Interests"
     },
     "zh": {
-      "role": "西南交通大学计算机科学与技术博士候选人",
+      "role": "副教授",
       "affiliation": {
-        "name": "西南交通大学",
+        "name": "中国海洋大学",
         "department": "",
-        "url": "https://www.swjtu.edu.cn/"
+        "url": "https://www.ouc.edu.cn/"
       },
-      "location": "四川成都",
+      "location": "山东青岛",
       "researchLabel": "研究方向",
       "interestsLabel": "兴趣爱好"
     }
   },
   "quickLinks": [
-    { "type": "scholar", "href": "https://scholar.google.com.hk/citations?user=mr-xm6gAAAAJ", "label": "Scholar" },
-    { "type": "email", "href": "mailto:wqm@my.swjtu.edu.cn", "label": "Email" },
-    { "type": "github", "href": "https://github.com/fengxueguiren", "label": "GitHub" },
-    { "type": "cv", "href": "https://github.com/fengxueguiren/cv", "label": "CV", "show": false},
+    { "type": "scholar", "href": "https://scholar.google.com.hk/citations?user=ELP6rPMAAAAJ", "label": "Scholar" },
+    { "type": "email", "href": "mailto:hxiao@ouc.edu.cn", "label": "Email" },
+    { "type": "github", "href": "https://github.com/hnxiao", "label": "GitHub" },
+    { "type": "cv", "href": "https://github.com/hnxiao/cv", "label": "CV", "show": false},
     { "type": "twitter", "href": "https://x.com/", "label": "Twitter", "show": false},
     { "type": "publications", "href": "#publications", "label": "Publications" }
   ]
