@@ -1,46 +1,49 @@
 {
   "about": {
-    "title": "🌟 关于我",
+    "title": "🌟 个人简介",
     "paragraphs": [
-      "你好！我是 Han Xiao（肖汉），[西南交通大学](https://swjtu.edu.cn/) 计算机科学与技术专业四年级博士生，师从 [Penglin Dai 教授](https://itsgroups.github.io/)。我已在 AAAI 2026、AAAI 2025、NeurIPS 2025、TMM、TITS 和 INS 等会议与期刊上发表论文。",
-      "我的研究处于计算机视觉与智能交通的交叉领域，重点关注以下方向："
+      "中国海洋大学数学科学学院副教授。2016年获香港大学博士学位。兼任中国运筹学会组织工作委员会副秘书长，中国运筹学会博弈论分会理事，中国计算机学会计算经济专委会执行委员。主持国家自然科学基金2项、山东省自然科学基金2项。研究方向为组合优化、算法博弈、多面体组合。",
+      "我的研究处于组合优化与算法博弈的交叉领域，重点关注以下方向："
     ],
     "points": [
       {
-        "label": "自动驾驶",
-        "description": "协作感知（Collaborative Perception）与协作式驾驶自动化相关课题。"
+        "label": "组合优化",
+        "description": "研究网络流、匹配、覆盖等离散优化问题的算法设计与计算复杂性。"
       },
       {
-        "label": "计算机视觉",
-        "description": "三维目标检测（3D Object Detection）相关课题。"
+        "label": "算法博弈",
+        "description": "研究博弈均衡的计算复杂性，以及自私行为下系统效率的近似保证。"
+      },
+      {
+        "label": "多面体组合",
+        "description": "研究组合优化问题的多面体结构，如线性规划松弛与割平面方法。"
       }
     ],
-    "note": "📬 如果你对我的研究感兴趣，欢迎通过邮件联系我，一起讨论或合作。邮箱：[wqm@my.swjtu.edu.cn](mailto:wqm@my.swjtu.edu.cn)！"
+    "note": "📬 如果你对我的研究感兴趣，欢迎通过邮件联系我，一起讨论或合作。邮箱：[hxiao@ouc.edu.cn](mailto:hxiao@ouc.edu.cn)！"
   },
   "news": {
     "title": "🔥 新闻",
     "items": [
-      { "date": "2026.04", "text": "一篇论文被 IEEE Transactions on Multimedia（TMM）接收。" },
-      { "date": "2025.11", "text": "一篇论文被 AAAI 2026 接收。" },
-      { "date": "2024.10", "text": "一篇论文被 AAAI 2025 接收，并被选为 **Oral 口头报告**。" }
+      { "date": "2026.09", "text": "2篇论文被 WINE 2026 接收。" },
+      { "date": "2026.8", "text": "获批国家自然科学基金1项。" }
     ]
   },
   "workingPapers": {
-    "title": "工作论文",
+    "title": "论文",
     "items": []
   },
   "experience": {
-    "title": "💻 实习与工作经历",
+    "title": "💻 工作经历",
     "items": []
   },
   "education": {
     "title": "📖 教育经历",
     "items": [
       {
-        "title": "计算机科学博士",
-        "date": "2023 - 至今",
-        "organization": "西南交通大学",
-        "description": "导师：Penglin Dai 教授。研究方向：协作感知、三维视觉、自动驾驶。"
+        "title": "博士",
+        "date": "2011 - 2016",
+        "organization": "香港大学",
+        "description": "导师：Wenan Zang 教授。"
       }
     ]
   },
@@ -85,7 +88,7 @@
     "items": []
   },
   "teaching": {
-    "title": "📚 助教经历",
+    "title": "📚 教学",
     "items": []
   }
 }
