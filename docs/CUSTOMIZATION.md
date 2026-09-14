@@ -201,8 +201,8 @@ Conferences use a Bento grid. Journal reviewing uses chips; workshops use rows.
 `type` accepts `grant` or `project`; `status` accepts Active/在研/Completed, etc.
 
 Complete page-content template (English):
-[`examples/site-content.example.json`](examples/site-content.example.json). The
-Chinese mirror is
+[`examples/site-content.example.json`](examples/site-content.example.json). 
+The Chinese mirror is
 [`examples/site-content.zh.example.json`](examples/site-content.zh.example.json).
 
 ---
