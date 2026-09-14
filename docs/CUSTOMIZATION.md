@@ -16,21 +16,21 @@ Copy-paste ready templates live in
 {
   "avatar": "images/avatar.jpg",
   "avatarAlt": "Profile photo",
-  "name": "Quanmin Wei (韦全敏)",
-  "role": "Ph.D. Candidate in Computer Science ...",
+  "name": "Xiao, Han (肖汉)",
+  "role": "Associate Professor",
 
   "affiliation": {
-    "name": "Southwest Jiaotong University",
-    "department": "School of Computing and AI",
-    "url": "https://www.swjtu.edu.cn/"
+    "name": "Ocean University of China",
+    "department": "School of Mathematical Sciences",
+    "url": "https://www.ouc.edu.cn/"
   },
-  "location": "Chengdu, China",
+  "location": "Qingdao, China",
 
-  "research": ["Computer Vision", "Autonomous Driving"],
-  "interests": ["Cycling", "Honor of Kings"],
+  "research": ["Combinatorial Optimization", "Algorithmic Game Theory"],
+  "interests": ["Hiking", "Reading"],
 
   "other": [
-    { "label": "Office", "value": "Room 512" }
+    { "label": "Office", "value": "Room 523" }
   ],
 
   "quickLinks": [
@@ -66,9 +66,9 @@ and `other` per language:
 ```json
 "localized": {
   "zh": {
-    "role": "西南交通大学计算机科学与技术博士候选人",
-    "affiliation": { "name": "西南交通大学", "url": "https://www.swjtu.edu.cn/" },
-    "location": "四川成都",
+    "role": "副教授",
+    "affiliation": { "name": "中国海洋大学", "url": "https://www.ouc.edu.cn/" },
+    "location": "山东青岛",
     "researchLabel": "研究方向",
     "interestsLabel": "兴趣爱好"
   }
@@ -137,7 +137,7 @@ Text fields support **bold**, *italics*, and [links](https://example.com).
     {
       "title": "Paper title",
       "authors": [
-        { "name": "Quanmin Wei", "equal": true },
+        { "name": "Han Xiao", "equal": true },
         { "name": "Co-author", "equal": true },
         { "name": "Advisor" }
       ],

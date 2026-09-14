@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Quanmin Wei's Homepage",
-    "description": "Personal academic homepage of Quanmin Wei, Ph.D. candidate in Computer Science at Southwest Jiaotong University.",
-    "author": "Quanmin Wei",
-    "ownerName": "Quanmin Wei",
-    "navBrand": "Quanmin Wei's Homepage",
-    "footerName": "Quanmin Wei",
+    "title": "Han Xiao's Homepage",
+    "description": "Personal academic homepage of Han Xiao, Ph.D. candidate in Computer Science at Southwest Jiaotong University.",
+    "author": "Han Xiao",
+    "ownerName": "Han Xiao",
+    "navBrand": "Han Xiao's Homepage",
+    "footerName": "Han Xiao",
     "showTemplateCredit": true,
     "showLastUpdated": true,
     "lastUpdated": "",

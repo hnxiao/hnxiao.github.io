@@ -12,7 +12,7 @@ A copy-paste BibTeX template is available at
 
 ```bibtex
 @inproceedings{my-paper-2026,
-  author    = {Quanmin Wei and Co-Author One and Senior Author},
+  author    = {Han Xiao and Co-Author One and Senior Author},
   title     = {Paper Title},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year      = {2026},
