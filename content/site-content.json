@@ -2,8 +2,8 @@
   "about": {
     "title": "🌟 About Me",
     "paragraphs": [
-      " Hello! I am Han Xiao (肖汉), Associate Professor at [Ocean University of China](https://www.ouc.edu.cn/).",
-      
+      "Hello! I'm Han Xiao (肖汉). I'm an Associate Professor of Mathematics at Ocean University of China.",
+      "I did my PhD with Prof. Wenan Zang at The University of Hong Kong in 2016.",
       "My research lies at the intersection of combinatorial optimization and algorithmic game theory, with a primary focus on the following areas:"
     ],
     "points": [
@@ -25,9 +25,8 @@
   "news": {
     "title": "🔥 News",
     "items": [
-      { "date": "2026.04", "text": "One paper has been accepted at IEEE Transactions on Multimedia (TMM)." },
-      { "date": "2025.11", "text": "One paper has been accepted at AAAI 2026." },
-      { "date": "2024.10", "text": "One paper has been accepted for **oral presentation** at AAAI 2025." }
+      { "date": "2026.09", "text": "Two papers have been accepted at WINE 2026." },
+      { "date": "2026.08", "text": "Awarded one National Natural Science Foundation of China (NSFC) grant." }
     ]
   },
   "workingPapers": {
@@ -36,30 +35,29 @@
   },
   "experience": {
     "title": "💻 Experience",
-    "items": []
-  },
-  "education": {
-    "title": "📖 Education",
     "items": [
       {
-        "title": "Ph.D. in Mathematics",
+        "title": "Lecturer, Associate Professor",
+        "date": "2016 - 2026",
+        "organization": "Ocean University of China"
+      },
+      {
+        "title": "Ph.D.",
         "date": "2011 - 2016",
-        "organization": "The University of Hong Kong",
-        "description": "Advised by Prof. Wenan Zang."
+        "organization": "The University of Hong Kong"
+      },
+      {
+        "title": "B.Sc. & M.Sc.",
+        "date": "2004 - 2011",
+        "organization": "Ocean University of China"
       }
     ]
   },
   "honors": {
     "title": "🏅 Honors and Awards",
     "items": [
-      { "date": "2025.10", "text": "Excellent Graduate Student of Southwest Jiaotong University" },
-      { "date": "2025.07", "text": "Third Prize, Southwest Regional Division, Network Technology Challenge, China Collegiate Computing Contest"},
-      { "date":"2025.06", "text": "Outstanding Communist Party Member, 2023–2025 “Two Outstanding and One Advanced” Awards"},
-      { "date": "2023.03", "text": "Outstanding Graduating Graduate Student"},
-      { "date":"2020.12", "text": "First Prize, 2nd Guangxi Collegiate Artificial Intelligence Design Contest"},
-      { "date":"2019.03", "text": "‌Autonomous Region Government Encouragement Scholarship‌"},
-      { "date":"2018.07", "text": "Third Prize, 11nd China Information Security Contest for National College Students"},
-      { "date":"2018.05", "text": "Third Prize, 4nd CyberSpace Security Technology Contest"}
+      { "date": "2025", "text": "Invited talk at the Annual Conference of the Graph Theory and Combinatorics Branch, Operations Research Society of China" },
+      { "date": "2023", "text": "Li Xiaoyong Teaching Award, Ocean University of China" }
     ]
   },
   "services": {

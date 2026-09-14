@@ -338,13 +338,12 @@
     };
 
     const NAV_LABEL_TRANSLATIONS = {
-      about: { en: "About", zh: "个人简介" },
+      about: { en: "About", zh: "简介" },
       news: { en: "News", zh: "新闻" },
       publications: { en: "Publications", zh: "论文" },
       grants: { en: "Grants & Projects", zh: "基金与项目" },
       "working-papers": { en: "Working Papers", zh: "工作论文" },
       experience: { en: "Experience", zh: "经历" },
-      education: { en: "Education", zh: "教育" },
       honors: { en: "Honors", zh: "荣誉" },
       services: { en: "Services", zh: "学术服务" },
       teaching: { en: "Teaching", zh: "助教" }
@@ -1145,7 +1144,6 @@
       { id: "grants", label: "Grants & Projects", enabled: true, inNav: true },
       { id: "working-papers", label: "Working Papers", enabled: true, inNav: true },
       { id: "experience", label: "Experience", enabled: true, inNav: true },
-      { id: "education", label: "Education", enabled: true, inNav: true },
       { id: "honors", label: "Honors", enabled: true, inNav: true },
       { id: "services", label: "Services", enabled: true, inNav: true },
       { id: "teaching", label: "Teaching", enabled: true, inNav: true }
