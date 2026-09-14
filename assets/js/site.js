@@ -338,7 +338,7 @@
     };
 
     const NAV_LABEL_TRANSLATIONS = {
-      about: { en: "About", zh: "关于" },
+      about: { en: "About", zh: "个人简介" },
       news: { en: "News", zh: "新闻" },
       publications: { en: "Publications", zh: "论文" },
       grants: { en: "Grants & Projects", zh: "基金与项目" },

@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Han Xiao's Homepage",
-    "description": "Personal academic homepage of Han Xiao, Ph.D. candidate in Computer Science at Southwest Jiaotong University.",
+    "description": "Personal academic homepage of Han Xiao, Associate Professor at Ocean University of China.",
     "author": "Han Xiao",
     "ownerName": "Han Xiao",
     "navBrand": "Han Xiao's Homepage",
@@ -9,7 +9,7 @@
     "showTemplateCredit": true,
     "showLastUpdated": true,
     "lastUpdated": "",
-    "url": "https://your-username.github.io/",
+    "url": "https://hnxiao.github.io/",
     "ogImage": "images/og-image.png"
   },
   "language": {
