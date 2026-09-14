@@ -142,9 +142,10 @@ Licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-This enhanced project is developed based on
-[Laip11/academic-homepage-template](https://github.com/Laip11/academic-homepage-template).
-It extends the original zero-build academic homepage template with data-driven
-content, an expanded theme system, bilingual support, publication management,
-and additional site features. The upstream project is released under the MIT
-License.
+This project is developed based on
+[fengxueguiren/Open-Academic-Homepage](https://github.com/fengxueguiren/Open-Academic-Homepage),
+which extends the original zero-build academic homepage template
+[Laip11/academic-homepage-template](https://github.com/Laip11/academic-homepage-template)
+with data-driven content, an expanded theme system, bilingual support,
+publication management, and additional site features. Both upstream projects
+are released under the MIT License.
