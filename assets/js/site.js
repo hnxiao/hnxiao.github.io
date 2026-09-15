@@ -1217,7 +1217,7 @@
     function formatInlineMarkdown(text) {
       const links = [];
       let s = String(text == null ? "" : text);
-      s = s.replace(/\[([^\]]+)\]\(((?:https?:|mailto:)[^)\s]+)\)/g, (match, label, url) => {
+      s = s.replace(/\[((?:[^\[\]]|\[[^\]]*\])+)\]\(((?:https?:|mailto:)[^)\s]+)\)/g, (match, label, url) => {
         links.push({ label, url });
         return "\u0001" + (links.length - 1) + "\u0001";
       });
