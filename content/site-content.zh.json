@@ -2,7 +2,7 @@
   "about": {
     "title": "🌟 简介",
     "paragraphs": [
-      "中国海洋大学数学科学学院副教授。2016年获香港大学博士学位。兼任中国运筹学会组织工作委员会副秘书长，中国运筹学会博弈论分会理事，中国计算机学会计算经济专委会执行委员。主持国家自然科学基金2项、山东省自然科学基金2项。研究方向为组合优化、算法博弈、多面体组合:"
+      "九三学社社员，中国海洋大学数学科学学院副教授。2016年获香港大学博士学位。兼任中国运筹学会组织工作委员会副秘书长，中国运筹学会博弈论分会理事，中国计算机学会计算经济专委会执行委员。主持国家自然科学基金2项、山东省自然科学基金2项。研究方向为组合优化、算法博弈、多面体组合:"
     ],
     "points": [
       {
@@ -18,7 +18,7 @@
         "description": "研究组合优化问题的多面体结构特征与线性不等式系统代数特征。"
       }
     ],
-    "note": "📬 如果你对我的研究感兴趣，欢迎通过邮件联系我，一起讨论或合作。邮箱：[hxiao@ouc.edu.cn](mailto:hxiao@ouc.edu.cn)！"
+    "note": "📬 欢迎报考团队硕士与博士研究生。邮箱：[hxiao[at]ouc.edu.cn](mailto:hxiao@ouc.edu.cn)！"
   },
   "news": {
     "title": "🔥 新闻",
@@ -52,15 +52,15 @@
     ]
   },
   "honors": {
-    "title": "🏅 荣誉与获奖",
+    "title": "🏅 荣誉",
     "items": [
       { "date": "2025", "text": "中国运筹学会图论组合分会学术年会，邀请报告" },
       { "date": "2023", "text": "中国海洋大学李小勇奖教金" }
     ]
   },
   "services": {
-    "title": "🤝 学术服务",
-    "conferenceHeading": "会议审稿",
+    "title": "🤝 服务",
+    "conferenceHeading": "审稿",
     "conferences": [
       { "name": "AAAI", "years": ["2027", "2026"], "fullName": "AAAI Conference on Artificial Intelligence" },
       { "name": "ACM MM", "years": ["2024"], "fullName": "ACM Multimedia" }
@@ -68,7 +68,7 @@
     "other": [
       {
         "type": "journal",
-        "title": "期刊审稿",
+        "title": "审稿",
         "items": [
           { "name": "Pattern Recognition", "abbr": "PR" },
           { "name": "Neural Networks", "abbr": "NN" },
@@ -82,7 +82,7 @@
     ]
   },
   "grants": {
-    "title": "🏆 基金与项目",
+    "title": "🏆 项目",
     "items": []
   },
   "teaching": {
