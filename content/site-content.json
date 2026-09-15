@@ -2,8 +2,9 @@
   "about": {
     "title": "🌟 About Me",
     "paragraphs": [
-      "Hello! I'm Han Xiao (肖汉). I'm an Associate Professor of Mathematics at Ocean University of China.",
+      "Hello! I'm Han Xiao (肖汉). I'm a member of the Jiusan Society and an Associate Professor of Mathematics at Ocean University of China.",
       "I did my PhD with Prof. Wenan Zang at The University of Hong Kong in 2016.",
+      "I also serve as Deputy Secretary-General of the Organization Working Committee of the Operations Research Society of China (ORSC), Council Member of the ORSC Game Theory Branch, and Executive Committee Member of the Technical Committee on Computational Economics of the China Computer Federation (CCF). I have led two National Natural Science Foundation of China (NSFC) grants and two Shandong Provincial Natural Science Foundation grants.",
       "My research lies at the intersection of combinatorial optimization and algorithmic game theory, with a primary focus on the following areas:"
     ],
     "points": [
@@ -20,7 +21,7 @@
         "description": "Polyhedral structure of combinatorial optimization problems, such as linear programming relaxations and cutting-plane methods."
       }
     ],
-    "note": "📬 Please feel free to send me an email if you are interested in discussing or working together. My email is [hxiao@ouc.edu.cn](mailto:hxiao@ouc.edu.cn)!"
+    "note": "📬 Prospective Master's and PhD students are welcome to apply to join our group. Email: [hxiao[at]ouc.edu.cn](mailto:hxiao@ouc.edu.cn)!"
   },
   "news": {
     "title": "🔥 News",
@@ -85,10 +86,15 @@
   },
   "grants": {
     "title": "🏆 Grants & Funded Projects",
-    "items": []
+    "items": [
+      { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2027.01-2030.12" },
+      { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2021.01-2023.12" },
+      { "title": "Shandong Provincial Natural Science Foundation", "role": "PI", "period": "2025.10-2028.09" },
+      { "title": "Shandong Provincial Natural Science Foundation", "role": "PI", "period": "2021.01-2023.12" }
+    ]
   },
   "teaching": {
-    "title": "📚 Teaching Assistantships",
+    "title": "📚 Teaching",
     "items": []
   }
 }
