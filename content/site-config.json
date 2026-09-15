@@ -49,7 +49,7 @@
     { "id": "working-papers", "label": "Working Papers", "enabled": false, "inNav": false },
     { "id": "experience", "label": "Experience", "enabled": true, "inNav": true },
     { "id": "honors", "label": "Honors", "enabled": true, "inNav": true },
-    { "id": "services", "label": "Services", "enabled": true, "inNav": true },
+    { "id": "services", "label": "Services", "enabled": false, "inNav": false },
     { "id": "teaching", "label": "Teaching", "enabled": false, "inNav": false }
   ]
 }
