@@ -1421,10 +1421,14 @@
         const title = grant.url
           ? `<a class="grants-title" href="${escapeHtml(grant.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(grant.title || "")}</a>`
           : `<span class="grants-title">${escapeHtml(grant.title || "")}</span>`;
-        const type = grant.type === "project" ? t("type-project") : t("type-grant");
+        const typeLabel = grant.type ? (grant.type === "project" ? t("type-project") : t("type-grant")) : "";
         const statusKey = String(grant.status || "").toLowerCase();
         const isActive = ["active", "在研", "进行中", "执行中"].some((word) => statusKey.includes(word));
         const statusClass = isActive ? "is-active" : "is-completed";
+        const head = [
+          typeLabel ? `<span class="grants-type">${escapeHtml(typeLabel)}</span>` : "",
+          grant.status ? `<span class="grants-status ${statusClass}">${escapeHtml(grant.status)}</span>` : ""
+        ].filter(Boolean).join("");
         const meta = [];
         if (grant.role) meta.push(escapeHtml(grant.role));
         if (grant.funder) meta.push(escapeHtml(grant.funder));
@@ -1433,10 +1437,7 @@
         if (grant.amount) meta.push(escapeHtml(grant.amount));
         return [
           '<div class="grants-item">',
-          '  <div class="grants-head">',
-          `    <span class="grants-type">${escapeHtml(type)}</span>`,
-          grant.status ? `    <span class="grants-status ${statusClass}">${escapeHtml(grant.status)}</span>` : "",
-          '  </div>',
+          head ? `  <div class="grants-head">${head}</div>` : "",
           `  <div>${title}</div>`,
           meta.length ? `  <div class="grants-meta">${meta.join(" · ")}</div>` : "",
           "</div>"
