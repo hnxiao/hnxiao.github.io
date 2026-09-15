@@ -52,6 +52,6 @@
     { "type": "github", "href": "https://github.com/hnxiao", "label": "GitHub" },
     { "type": "cv", "href": "https://github.com/hnxiao/cv", "label": "CV", "show": false},
     { "type": "twitter", "href": "https://x.com/", "label": "Twitter", "show": false},
-    { "type": "publications", "href": "#publications", "label": "Publications" }
+    { "type": "publications", "href": "#publications", "label": "Publications", "show": false }
   ]
 }
