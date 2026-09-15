@@ -306,7 +306,7 @@
         "back-home": "Back to Homepage"
       },
       zh: {
-        "publications-title": "📝 论文发表",
+        "publications-title": "📝 论文",
         "pub-note": "(<sup>*</sup> 表示共同一作，<sup>#</sup> 表示通讯作者)",
         selected: "精选",
         all: "全部",
@@ -341,12 +341,12 @@
       about: { en: "About", zh: "简介" },
       news: { en: "News", zh: "新闻" },
       publications: { en: "Publications", zh: "论文" },
-      grants: { en: "Grants & Projects", zh: "基金与项目" },
+      grants: { en: "Grants", zh: "项目" },
       "working-papers": { en: "Working Papers", zh: "工作论文" },
       experience: { en: "Experience", zh: "经历" },
       honors: { en: "Honors", zh: "荣誉" },
-      services: { en: "Services", zh: "学术服务" },
-      teaching: { en: "Teaching", zh: "助教" }
+      services: { en: "Services", zh: "服务" },
+      teaching: { en: "Teaching", zh: "教学" }
     };
 
     function t(key) {
@@ -1141,7 +1141,7 @@
       { id: "about", label: "About", enabled: true, inNav: true },
       { id: "news", label: "News", enabled: true, inNav: true },
       { id: "publications", label: "Publications", enabled: true, inNav: true },
-      { id: "grants", label: "Grants & Projects", enabled: true, inNav: true },
+      { id: "grants", label: "Grants", enabled: true, inNav: true },
       { id: "working-papers", label: "Working Papers", enabled: true, inNav: true },
       { id: "experience", label: "Experience", enabled: true, inNav: true },
       { id: "honors", label: "Honors", enabled: true, inNav: true },
