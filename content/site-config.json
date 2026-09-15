@@ -44,10 +44,10 @@
     { "id": "profile", "enabled": true, "inNav": false },
     { "id": "about", "label": "About", "enabled": true, "inNav": true },
     { "id": "news", "label": "News", "enabled": false, "inNav": false },
+    { "id": "experience", "label": "Experience", "enabled": true, "inNav": true },
     { "id": "grants", "label": "Grants", "enabled": true, "inNav": true },
     { "id": "publications", "label": "Publications", "enabled": true, "inNav": true },
     { "id": "working-papers", "label": "Working Papers", "enabled": false, "inNav": false },
-    { "id": "experience", "label": "Experience", "enabled": true, "inNav": true },
     { "id": "honors", "label": "Honors", "enabled": true, "inNav": true },
     { "id": "services", "label": "Services", "enabled": false, "inNav": false },
     { "id": "teaching", "label": "Teaching", "enabled": false, "inNav": false }
