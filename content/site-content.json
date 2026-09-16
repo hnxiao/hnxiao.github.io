@@ -2,24 +2,9 @@
   "about": {
     "title": "🌟 About Me",
     "paragraphs": [
-      "Hello! I'm Han Xiao (肖汉). I'm a member of the Jiusan Society and an Associate Professor of Mathematics at Ocean University of China.",
+      "Hello! I'm Han Xiao (肖汉). I'm an Associate Professor of Mathematics at Ocean University of China.",
       "I did my PhD with Prof. Wenan Zang at The University of Hong Kong in 2016.",
-      "I also serve as Deputy Secretary-General of the Organization Working Committee of the Operations Research Society of China (ORSC), Council Member of the ORSC Game Theory Branch, and Executive Committee Member of the Technical Committee on Computational Economics of the China Computer Federation (CCF). I have led two National Natural Science Foundation of China (NSFC) grants and two Shandong Provincial Natural Science Foundation grants.",
-      "My research lies at the intersection of combinatorial optimization and algorithmic game theory, with a primary focus on the following areas:"
-    ],
-    "points": [
-      {
-        "label": "Combinatorial Optimization",
-        "description": "Algorithm design and computational complexity for discrete optimization problems such as network flows, matchings, and covering."
-      },
-      {
-        "label": "Algorithmic Game Theory",
-        "description": "Computational complexity of game equilibria, and approximation guarantees for system efficiency under selfish behavior."
-      },
-      {
-        "label": "Polyhedral Combinatorics",
-        "description": "Polyhedral structure of combinatorial optimization problems, such as linear programming relaxations and cutting-plane methods."
-      }
+      "I'm interested in combinatorial optimization, algorithmic game theory, polyhedral combinatorics and related problems."
     ],
     "note": "📬 Prospective Master's and PhD students are welcome to apply to join our group. Email: [hxiao[at]ouc.edu.cn](mailto:hxiao@ouc.edu.cn)!"
   },
@@ -85,7 +70,7 @@
     ]
   },
   "grants": {
-    "title": "🏆 Grants & Funded Projects",
+    "title": "🏆 Grants",
     "items": [
       { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2027.01-2030.12" },
       { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2021.01-2023.12" },
