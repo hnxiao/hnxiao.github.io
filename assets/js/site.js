@@ -1483,6 +1483,7 @@
       const affiliation = localized.affiliation || profile.affiliation || null;
       const locationValue = localized.location !== undefined ? localized.location : profile.location || "";
       const otherItems = localized.other !== undefined ? localized.other : profile.other;
+      const researchItems = localized.research !== undefined ? localized.research : profile.research;
       const enabledAnchorIds = new Set(
         sectionConfigs
           .filter((section) => section.enabled !== false)
@@ -1501,8 +1502,8 @@
       if (showField("location") && locationValue) {
         metaRows.push(`<div class="profile-meta-row"><span class="profile-meta-label">${escapeHtml(t("location"))}</span><span class="profile-meta-value">${escapeHtml(locationValue)}</span></div>`);
       }
-      if (showField("research") && Array.isArray(profile.research) && profile.research.length) {
-        metaRows.push(`<div class="profile-meta-row"><span class="profile-meta-label">${escapeHtml(researchLabel)}</span><span class="profile-meta-value">${escapeHtml(profile.research.join(" · "))}</span></div>`);
+      if (showField("research") && Array.isArray(researchItems) && researchItems.length) {
+        metaRows.push(`<div class="profile-meta-row"><span class="profile-meta-label">${escapeHtml(researchLabel)}</span><span class="profile-meta-value">${escapeHtml(researchItems.join(" · "))}</span></div>`);
       }
       if (showField("interests") && Array.isArray(profile.interests) && profile.interests.length) {
         metaRows.push(`<div class="profile-meta-row"><span class="profile-meta-label">${escapeHtml(interestsLabel)}</span><span class="profile-meta-value">${escapeHtml(profile.interests.join(" · "))}</span></div>`);

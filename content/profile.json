@@ -35,7 +35,7 @@
       "interestsLabel": "Interests"
     },
     "zh": {
-      "role": "副教授",
+      "role": "中国海洋大学 副教授",
       "affiliation": {
         "name": "中国海洋大学",
         "department": "",
@@ -43,6 +43,11 @@
       },
       "location": "山东青岛",
       "researchLabel": "研究方向",
+      "research": [
+        "组合优化",
+        "算法博弈",
+        "多面体组合"
+      ],
       "interestsLabel": "兴趣爱好"
     }
   },
