@@ -727,7 +727,6 @@
       const ownerRank = getOwnerRank(entry, authorNames) || 99;
       const year = getBibField(entry, "year") || "0";
       const selected = /^(true|yes|1)$/i.test(getBibField(entry, "selected"));
-      const image = getBibField(entry, "image") || BIB_FALLBACK_IMAGE;
       const links = buildPaperLinks(entry, safeKey);
       const detail = buildPaperDetail(entry, safeKey);
       const searchParts = [
@@ -750,10 +749,6 @@
       return [
         `<div class="paper-card" id="paper-${safeKey}" data-selected="${selected ? "true" : "false"}" ` +
         `data-author-rank="${ownerRank}" data-year="${year}" data-search="${escapeHtml(searchParts)}">`,
-        `  <div class="paper-image-container">`,
-        `    <img src="${escapeHtml(image)}" alt="${escapeHtml(title + " teaser figure")}" loading="lazy">`,
-        venueText ? `    <span class="paper-venue-corner">${escapeHtml(venueText)}</span>` : "",
-        `  </div>`,
         `  <div class="paper-content">`,
         `    <div class="paper-title-row"><div class="paper-title">${escapeHtml(title)}</div>` +
         `<a class="paper-anchor" href="#paper-${escapeHtml(safeKey)}" aria-label="Link to this paper">#</a></div>`,
