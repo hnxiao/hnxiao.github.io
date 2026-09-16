@@ -6,7 +6,7 @@
       "I did my PhD with Prof. Wenan Zang at The University of Hong Kong in 2016.",
       "I'm interested in combinatorial optimization, algorithmic game theory, polyhedral combinatorics and related problems."
     ],
-    "note": "📬 Prospective Master's and PhD students are welcome to apply to join our group. Email: [hxiao[at]ouc.edu.cn](mailto:hxiao@ouc.edu.cn)!"
+    "note": "📬 Prospective students are welcome to apply to join our group. Email: [hxiao[at]ouc.edu.cn](mailto:hxiao@ouc.edu.cn)!"
   },
   "news": {
     "title": "🔥 News",
@@ -23,7 +23,7 @@
     "title": "💻 Experience",
     "items": [
       {
-        "title": "Lecturer, Associate Professor",
+        "title": "Associate Professor",
         "date": "2016 - 2026",
         "organization": "Ocean University of China"
       },
@@ -40,7 +40,7 @@
     ]
   },
   "honors": {
-    "title": "🏅 Honors and Awards",
+    "title": "🏅 Awards",
     "items": [
       { "date": "2025", "text": "Invited talk at the Annual Conference of the Graph Theory and Combinatorics Branch, Operations Research Society of China" },
       { "date": "2023", "text": "Li Xiaoyong Teaching Award, Ocean University of China" }
