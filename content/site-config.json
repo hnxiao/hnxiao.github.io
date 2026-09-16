@@ -48,7 +48,7 @@
     { "id": "grants", "label": "Grants", "enabled": true, "inNav": true },
     { "id": "publications", "label": "Publications", "enabled": true, "inNav": true },
     { "id": "working-papers", "label": "Working Papers", "enabled": false, "inNav": false },
-    { "id": "honors", "label": "Honors", "enabled": true, "inNav": true },
+    { "id": "honors", "label": "Honors", "enabled": false, "inNav": false },
     { "id": "services", "label": "Services", "enabled": false, "inNav": false },
     { "id": "teaching", "label": "Teaching", "enabled": false, "inNav": false }
   ]
