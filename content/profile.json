@@ -10,7 +10,7 @@
   },
   "location": "Qingdao, China",
   "other": [],
-  "researchLabel": "Research Interests",
+  "researchLabel": "Interests",
   "research": [
     "Combinatorial Optimization",
     "Algorithmic Game Theory",
@@ -25,7 +25,7 @@
   "localized": {
     "en": {
       "role": "Associate Professor @ Ocean University of China",
-      "researchLabel": "Research Interests"
+      "researchLabel": "Interests"
     },
     "zh": {
       "role": "中国海洋大学 副教授",
