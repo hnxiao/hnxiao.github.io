@@ -47,9 +47,9 @@
     }
   },
   "quickLinks": [
-    { "type": "scholar", "href": "https://scholar.google.com.hk/citations?user=ELP6rPMAAAAJ", "label": "Scholar" },
-    { "type": "email", "href": "mailto:hxiao@ouc.edu.cn", "label": "Email" },
-    { "type": "github", "href": "https://github.com/hnxiao", "label": "GitHub" },
+    { "type": "scholar", "href": "https://scholar.google.com.hk/citations?user=ELP6rPMAAAAJ", "label": "Scholar", "show": false },
+    { "type": "email", "href": "mailto:hxiao@ouc.edu.cn", "label": "Email", "show": false },
+    { "type": "github", "href": "https://github.com/hnxiao", "label": "GitHub", "show": false },
     { "type": "cv", "href": "https://github.com/hnxiao/cv", "label": "CV", "show": false},
     { "type": "twitter", "href": "https://x.com/", "label": "Twitter", "show": false},
     { "type": "publications", "href": "#publications", "label": "Publications", "show": false }
