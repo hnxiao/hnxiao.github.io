@@ -1106,6 +1106,11 @@
       overflow-wrap: anywhere;
     }
 
+    .paper-venue-full strong {
+      color: var(--primary-text);
+      font-weight: 600;
+    }
+
     .paper-meta {
       display: flex;
       align-items: center;

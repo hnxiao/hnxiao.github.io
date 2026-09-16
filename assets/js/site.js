@@ -754,7 +754,7 @@
         `<a class="paper-anchor" href="#paper-${escapeHtml(safeKey)}" aria-label="Link to this paper">#</a></div>`,
         `    <div class="paper-authors">${renderAuthors(entry, authorNames) || escapeHtml("—")}</div>`,
         venueFullText
-          ? `    <div class="paper-venue-full">${escapeHtml(venueFullText)}${year && year !== "0" ? ", " + escapeHtml(year) : ""}</div>`
+          ? `    <div class="paper-venue-full"><strong>${escapeHtml(venueFullText)}</strong>${year && year !== "0" ? ", " + escapeHtml(year) : ""}</div>`
           : "",
         `    ${buildPaperMeta(entry)}`,
         `    <div class="paper-links">${links.join("")}</div>`,
