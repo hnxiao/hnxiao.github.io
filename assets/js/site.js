@@ -584,6 +584,26 @@
       return false;
     }
 
+    let CONTACT_EMAIL_PARTS = null;
+
+    function setContactEmailParts(parts) {
+      CONTACT_EMAIL_PARTS = parts && parts.user && parts.domain
+        ? { user: String(parts.user), domain: String(parts.domain) }
+        : null;
+    }
+
+    function contactEmailAddress() {
+      return CONTACT_EMAIL_PARTS
+        ? CONTACT_EMAIL_PARTS.user + "@" + CONTACT_EMAIL_PARTS.domain
+        : "";
+    }
+
+    function contactEmailDisplay() {
+      return CONTACT_EMAIL_PARTS
+        ? CONTACT_EMAIL_PARTS.user + "[at]" + CONTACT_EMAIL_PARTS.domain
+        : "";
+    }
+
     function getAuthorNames(entry) {
       const field = entry.fields.find((item) => item.name === "author");
       if (!field) return [];
@@ -1212,6 +1232,8 @@
     function formatInlineMarkdown(text) {
       const links = [];
       let s = String(text == null ? "" : text);
+      const emailDisplay = contactEmailDisplay();
+      if (emailDisplay) s = s.replace(/\{\{email\}\}/g, () => emailDisplay);
       s = s.replace(/\[((?:[^\[\]]|\[[^\]]*\])+)\]\(((?:https?:|mailto:)[^)\s]+)\)/g, (match, label, url) => {
         links.push({ label, url });
         return "\u0001" + (links.length - 1) + "\u0001";
@@ -1516,12 +1538,18 @@
       const quickLinksVisible = profile.showQuickLinks !== false;
       const links = quickLinksVisible && Array.isArray(profile.quickLinks)
         ? profile.quickLinks.filter((link) => link && link.show !== false).map((link) => {
-          if (!link || !link.href) return "";
-          if (link.href.startsWith("#") && !enabledAnchorIds.has(link.href.slice(1))) return "";
-          const isExternal = /^https?:/i.test(link.href);
+          if (!link) return "";
+          let href = link.href || "";
+          if (!href && link.type === "email") {
+            const address = contactEmailAddress();
+            href = address ? "mailto:" + address : "";
+          }
+          if (!href) return "";
+          if (href.startsWith("#") && !enabledAnchorIds.has(href.slice(1))) return "";
+          const isExternal = /^https?:/i.test(href);
           const rel = isExternal ? ' target="_blank" rel="noopener noreferrer"' : "";
           const svg = QUICK_LINK_SVG[link.type] || "";
-          return `<a class="quick-link" href="${escapeHtml(link.href)}"${rel}>${svg}${escapeHtml(link.label || "")}</a>`;
+          return `<a class="quick-link" href="${escapeHtml(href)}"${rel}>${svg}${escapeHtml(link.label || "")}</a>`;
         }).join("") : "";
       const quickLinksBlock = links
         ? `<div class="profile-links-block"><div class="quick-links">${links}</div></div>`
@@ -1936,6 +1964,7 @@
         loadJsonData(CONTENT_PROFILE_PATH),
         loadJsonData(resolvedContentPath)
       ]);
+      setContactEmailParts(profileData && profileData.email);
       if (!site.lastUpdated && site.showLastUpdated !== false) {
         site.lastUpdated = await detectLastModified(resolvedContentPath);
       }

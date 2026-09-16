@@ -10,6 +10,10 @@
   },
   "location": "Qingdao, China",
   "other": [],
+  "email": {
+    "user": "hxiao",
+    "domain": "ouc.edu.cn"
+  },
   "researchLabel": "Interests",
   "research": [
     "Combinatorial Optimization",
@@ -45,7 +49,7 @@
   },
   "quickLinks": [
     { "type": "scholar", "href": "https://scholar.google.com.hk/citations?user=ELP6rPMAAAAJ", "label": "Scholar", "show": false },
-    { "type": "email", "href": "mailto:hxiao@ouc.edu.cn", "label": "Email", "show": false },
+    { "type": "email", "label": "Email", "show": false },
     { "type": "github", "href": "https://github.com/hnxiao", "label": "GitHub", "show": false },
     { "type": "cv", "href": "https://github.com/hnxiao/cv", "label": "CV", "show": false},
     { "type": "twitter", "href": "https://x.com/", "label": "Twitter", "show": false},
