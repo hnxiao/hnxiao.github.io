@@ -16,23 +16,16 @@
     "Algorithmic Game Theory",
     "Polyhedral Combinatorics"
   ],
-  "interestsLabel": "Interests",
-  "interests": [
-    "‌Cycling‌",
-    "Hiking"
-  ],
   "show": {
     "affiliation": false,
     "location": false,
     "research": true,
-    "interests": false,
     "other": false
   },
   "localized": {
     "en": {
       "role": "Associate Professor @ Ocean University of China",
-      "researchLabel": "Research",
-      "interestsLabel": "Interests"
+      "researchLabel": "Research"
     },
     "zh": {
       "role": "中国海洋大学 副教授",
@@ -47,8 +40,7 @@
         "组合优化",
         "算法博弈",
         "多面体组合"
-      ],
-      "interestsLabel": "兴趣爱好"
+      ]
     }
   },
   "quickLinks": [
