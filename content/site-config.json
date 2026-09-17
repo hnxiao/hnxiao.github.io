@@ -38,7 +38,8 @@
     }
   },
   "publicationsView": {
-    "mode": "cards"
+    "mode": "cards",
+    "showActions": false
   },
   "sections": [
     { "id": "profile", "enabled": true, "inNav": false },

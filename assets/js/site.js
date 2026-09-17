@@ -386,6 +386,7 @@
     let bibModalCurrentKey = null;
     let paperSearchBound = false;
     let publicationsViewMode = "cards";
+    let publicationsShowActions = true;
     let paperOriginalKeys = [];
 
     function escapeHtml(value) {
@@ -747,8 +748,10 @@
       const ownerRank = getOwnerRank(entry, authorNames) || 99;
       const year = getBibField(entry, "year") || "0";
       const selected = /^(true|yes|1)$/i.test(getBibField(entry, "selected"));
-      const links = buildPaperLinks(entry, safeKey);
-      const detail = buildPaperDetail(entry, safeKey);
+      // Action row (Paper link, Details, BibTeX) can be hidden with
+      // publicationsView.showActions = false in content/site-config.json.
+      const links = publicationsShowActions ? buildPaperLinks(entry, safeKey) : [];
+      const detail = publicationsShowActions ? buildPaperDetail(entry, safeKey) : { toggle: "", block: "" };
       const searchParts = [
         title,
         venueText,
@@ -761,10 +764,12 @@
       ].join(" ").toLowerCase();
 
       if (detail.toggle) links.push(detail.toggle);
-      links.push(
-        `<button type="button" class="paper-btn paper-btn-secondary bib-export-btn" ` +
-        `data-bib-key="${escapeHtml(rawKey)}" aria-haspopup="dialog">${escapeHtml(t("bibtex"))}</button>`
-      );
+      if (publicationsShowActions) {
+        links.push(
+          `<button type="button" class="paper-btn paper-btn-secondary bib-export-btn" ` +
+          `data-bib-key="${escapeHtml(rawKey)}" aria-haspopup="dialog">${escapeHtml(t("bibtex"))}</button>`
+        );
+      }
 
       return [
         `<div class="paper-card" id="paper-${safeKey}" data-selected="${selected ? "true" : "false"}" ` +
@@ -777,7 +782,7 @@
           ? `    <div class="paper-venue-full"><strong>${escapeHtml(venueFullText)}</strong>${year && year !== "0" ? ", " + escapeHtml(year) : ""}</div>`
           : "",
         `    ${buildPaperMeta(entry)}`,
-        `    <div class="paper-links">${links.join("")}</div>`,
+        links.length ? `    <div class="paper-links">${links.join("")}</div>` : "",
         `    ${detail.block}`,
         `  </div>`,
         `</div>`
@@ -850,9 +855,10 @@
 
       const tags = buildReferenceTags(entry).map((tag) => escapeHtml(tag));
       const tagsHtml = tags.length ? `<span class="paper-ref-tags">[${tags.join(" | ")}]</span>` : "";
-      const bibHtml =
-        `<button type="button" class="paper-ref-bib bib-export-btn" ` +
-        `data-bib-key="${escapeHtml(entry.key)}" aria-haspopup="dialog">${escapeHtml(t("bibtex"))}</button>`;
+      const bibHtml = publicationsShowActions
+        ? `<button type="button" class="paper-ref-bib bib-export-btn" ` +
+          `data-bib-key="${escapeHtml(entry.key)}" aria-haspopup="dialog">${escapeHtml(t("bibtex"))}</button>`
+        : "";
       const trailing = [tagsHtml, bibHtml].filter(Boolean).join(" · ");
 
       return [
@@ -1973,6 +1979,9 @@
       publicationsViewMode = config && config.publicationsView && config.publicationsView.mode === "compact"
         ? "compact"
         : "cards";
+      publicationsShowActions = !(
+        config && config.publicationsView && config.publicationsView.showActions === false
+      );
 
       applySiteMeta(site);
       injectPersonJsonLd(site, profileData);
