@@ -13,8 +13,8 @@ The site is built on the open-source template
 Besides mine, two other homepages are also built on this template — for
 reference:
 
-- [Peng Lai (赖鹏)](https://laip11.github.io/) — author of the original template
-- [Quanmin Wei (韦全敏)](https://weiquanmin.github.io/) — author of Open-Academic-Homepage
+- [Peng Lai](https://laip11.github.io/) — author of the original template
+- [Quanmin Wei](https://weiquanmin.github.io/) — author of Open-Academic-Homepage
 
 ## 中文
 
@@ -24,8 +24,8 @@ reference:
 
 除我之外，还有两个个人主页也基于这一模板，供参考：
 
-- [赖鹏 Peng Lai](https://laip11.github.io/)（原始模板作者）
-- [韦全敏 Quanmin Wei](https://weiquanmin.github.io/)（Open-Academic-Homepage 作者）
+- [Peng Lai](https://laip11.github.io/)（原始模板作者）
+- [Quanmin Wei](https://weiquanmin.github.io/)（Open-Academic-Homepage 作者）
 
 ## License
 
