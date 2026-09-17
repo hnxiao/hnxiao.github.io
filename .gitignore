@@ -1,0 +1,5 @@
+# Local-only session logs (internal notes, intentionally not published)
+session-logs/
+
+# macOS artifacts
+.DS_Store
