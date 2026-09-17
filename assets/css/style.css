@@ -845,7 +845,9 @@
       text-decoration: none;
     }
 
-    .grants-title:hover {
+    /* Link-style hover only for grant titles that are real links (url field
+       present). Plain titles are spans and must not look like fake links. */
+    a.grants-title:hover {
       color: var(--accent-color);
       text-decoration: underline;
       text-underline-offset: 3px;
