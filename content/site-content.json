@@ -20,7 +20,7 @@
     "items": []
   },
   "experience": {
-    "title": "💻 Experience",
+    "title": "💼 Experience",
     "items": [
       {
         "title": "Associate Professor",
@@ -70,7 +70,7 @@
     ]
   },
   "grants": {
-    "title": "🏆 Grants",
+    "title": "💰 Grants",
     "items": [
       { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2027.01-2030.12" },
       { "title": "National Natural Science Foundation of China", "role": "PI", "period": "2021.01-2023.12" },
