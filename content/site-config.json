@@ -13,7 +13,7 @@
     "ogImage": "images/og-image.png"
   },
   "language": {
-    "default": "en",
+    "default": "zh",
     "available": ["en", "zh"],
     "switchable": true
   },

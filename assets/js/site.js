@@ -1453,7 +1453,7 @@
           grant.status ? `<span class="grants-status ${statusClass}">${escapeHtml(grant.status)}</span>` : ""
         ].filter(Boolean).join("");
         const meta = [];
-        if (grant.role) meta.push(escapeHtml(grant.role));
+        if (grant.role) meta.push(`<strong>${escapeHtml(grant.role)}</strong>`);
         if (grant.funder) meta.push(escapeHtml(grant.funder));
         if (grant.grantNumber) meta.push(escapeHtml(grant.grantNumber));
         if (grant.period) meta.push(escapeHtml(grant.period));
