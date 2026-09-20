@@ -308,7 +308,7 @@
       zh: {
         "publications-title": "📝 论文",
         "pub-note": "(<sup>*</sup> 表示共同一作，<sup>#</sup> 表示通讯作者)",
-        selected: "精选",
+        selected: "代表",
         all: "全部",
         "search-papers": "按标题、作者或会议搜索论文…",
         "no-results": "没有找到匹配的论文。",
