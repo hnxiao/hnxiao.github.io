@@ -216,9 +216,9 @@
       outline: none;
     }
 
-    .lang-select {
+    .lang-toggle {
       height: 28px;
-      max-width: 84px;
+      min-width: 48px;
       flex-shrink: 0;
       border-radius: 999px;
       border: 1px solid var(--border-light);
@@ -227,22 +227,17 @@
       font-family: var(--font-body);
       font-size: 0.78rem;
       font-weight: 600;
-      padding: 0 6px;
+      padding: 0 10px;
       cursor: pointer;
       transition: all 0.18s ease;
     }
 
-    .lang-select:hover,
-    .lang-select:focus-visible {
+    .lang-toggle:hover,
+    .lang-toggle:focus-visible {
       color: var(--accent-color);
       background: var(--accent-bg);
       border-color: var(--accent-border);
       outline: none;
-    }
-
-    .lang-select option {
-      background: #ffffff;
-      color: #334155;
     }
 
     /* ==========================================================================

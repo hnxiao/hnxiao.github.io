@@ -1776,26 +1776,27 @@
     function setupLanguageSwitcher(languageState) {
       if (!languageState || !languageState.switchable || languageState.available.length < 2) return;
       const navInner = document.querySelector(".site-nav .nav-inner");
-      if (!navInner || navInner.querySelector(".lang-select")) return;
-      const select = document.createElement("select");
-      select.className = "lang-select";
-      select.setAttribute("aria-label", "Language / 语言");
-      languageState.available.forEach((lang) => {
-        const option = document.createElement("option");
-        option.value = lang;
-        option.textContent = lang === "zh" ? "中文" : "EN";
-        select.appendChild(option);
-      });
-      select.value = languageState.selected;
-      select.addEventListener("change", () => {
+      if (!navInner || navInner.querySelector(".lang-toggle")) return;
+      const currentIndex = languageState.available.indexOf(languageState.selected);
+      const nextLanguage = languageState.available[(currentIndex + 1) % languageState.available.length];
+      if (nextLanguage === languageState.selected) return;
+      const hint =
+        nextLanguage === "zh" ? "Switch to Chinese / 切换到中文版" : "Switch to English / 切换到英文版";
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "lang-toggle";
+      button.textContent = nextLanguage === "zh" ? "中文" : "EN";
+      button.setAttribute("aria-label", hint);
+      button.title = hint;
+      button.addEventListener("click", () => {
         try {
-          localStorage.setItem(LANGUAGE_STORAGE_KEY, select.value);
+          localStorage.setItem(LANGUAGE_STORAGE_KEY, nextLanguage);
         } catch (error) {
           /* ignore storage errors */
         }
         window.location.reload();
       });
-      navInner.appendChild(select);
+      navInner.appendChild(button);
     }
 
     function buildNavigationHtml(sectionConfigs) {

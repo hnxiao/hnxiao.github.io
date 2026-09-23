@@ -57,7 +57,7 @@ body[data-theme="academic-paper"] .theme-toggle {
   box-shadow: none;
 }
 
-body[data-theme="academic-paper"] .lang-select,
+body[data-theme="academic-paper"] .lang-toggle,
 body[data-theme="academic-paper"] .paper-search {
   border-radius: 2px;
   box-shadow: none;

@@ -74,7 +74,7 @@ body[data-theme="terminal"] .nav-links a.active {
 }
 
 body[data-theme="terminal"] .theme-toggle,
-body[data-theme="terminal"] .lang-select,
+body[data-theme="terminal"] .lang-toggle,
 body[data-theme="terminal"] .paper-search {
   border: 1px solid #00ff41;
   border-radius: 0;
@@ -85,15 +85,9 @@ body[data-theme="terminal"] .paper-search {
 }
 
 body[data-theme="terminal"] .theme-toggle:hover,
-body[data-theme="terminal"] .lang-select:hover,
+body[data-theme="terminal"] .lang-toggle:hover,
 body[data-theme="terminal"] .paper-search:focus {
   background: #071a0d;
-}
-
-body[data-theme="terminal"] .lang-select option,
-body[data-theme="terminal"] .paper-search {
-  background: #020502;
-  color: #00ff41;
 }
 
 body[data-theme="terminal"] .main-container {
