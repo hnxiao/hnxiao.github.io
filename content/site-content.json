@@ -2,11 +2,11 @@
   "about": {
     "title": "🌟 About Me",
     "paragraphs": [
-      "Hello! I'm Han Xiao (肖汉). I'm an Associate Professor of Mathematics at Ocean University of China.",
+      "I'm an Associate Professor at Ocean University of China.",
       "I did my PhD with Prof. Wenan Zang at The University of Hong Kong in 2016.",
       "I'm interested in combinatorial optimization, algorithmic game theory, polyhedral combinatorics and related problems."
     ],
-    "note": "\uD83D\uDCE2 Each year, I have 1-2 Ph.D. openings and 1-2 master's openings. Self-motivated, AI-native students are welcome to get in touch. Email: {{email}}."
+    "note": "\uD83D\uDCE2 Each year, I have 1 Ph.D. opening and 1-2 master's openings. **Self-motivated**, **AI-native** students are welcome to get in touch. Email: {{email}}."
   },
   "news": {
     "title": "🔥 News",
